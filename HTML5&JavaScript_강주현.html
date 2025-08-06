@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px, solid" >
+        <caption>위의 그림을 참고해서 HTML 을 사용하여 구현한다. </caption>
+        <tr>
+            <th colspan="5">IT 시간표</th>
+        </tr>
+        <tr>
+            <th style="height: 20px;"></th>
+            <th style="width: 50px;">401호</th>
+            <th>402호</th>
+            <th style="width: 140px;">403호</th>
+            <th>404호</th>
+        </tr>
+        <tr>
+            <th style="width: 100px; height: 40px;">09:00-12:00</th>
+            <th rowspan="4" style="padding: 25px 5px 0px 5px; writing-mode: vertical-lr; letter-spacing: 30px;">공사중</th>
+            <td>PYTHON 기초</td>
+            <td rowspan="2">네트워크보안<br>실무자 양성</td>
+            <td>보충훈련 과정<br>(OS/네트워크)</td>
+        </tr>
+        <tr>
+            <th style="width: 100px; height: 40px;">12:30-15:30</th>
+            <td>JAVA</td>
+            <td>보충훈련 과정<br>(언어계열)</td>
+        </tr>
+        <tr>
+            <th style="width: 100px;">15:30-18:30</th>
+            <td>C언어</td>
+            <td rowspan="2">가상화 시스템<br>엔지니어 실무자 양성</td>
+            <td>리눅스</td>
+        </tr>
+        <tr>
+            <th style="width: 100px;">19:00-22:00</th>
+            <td>PYTHON_WEB</td>
+            <td>서버</td>
+        </tr>
+    </table>
+
+</body>
+</html>
